@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "rate-my-professor-api-ts": "^1.0.5"
+  },
+  "type": "module"
+}
