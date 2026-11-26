@@ -1,0 +1,11 @@
+ok so.
+we want.
+
+let's say, BASIC stuff: 
+for uoft (for now),
+    a list of professors
+        with their attributes and stuff
+        (basic stuff for now)
+
+as a nice file format. does np do arrays from json? like, probably?
+specifically: want an array of y-values too
