@@ -29,6 +29,15 @@ def visualize_data(df: pd.DataFrame) -> None:
     plt.tight_layout()
     plt.show()
 
+    # histogram of avg_rating
+    plt.figure(figsize=(10, 6))
+    plt.hist(df['avg_rating'], bins=16, edgecolor='black')
+    plt.title('Distribution of Average Rating')
+    plt.xlabel('Average Rating')
+    plt.ylabel('Number of Professors')
+    plt.tight_layout()
+    plt.show()
+
 
 if __name__ == "__main__":
     visualize_data(load_data())
